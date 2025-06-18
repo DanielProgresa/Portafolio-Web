@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Camionero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <div class="hero-content" id="inicio">
+            <h1>Juan Pérez</h1>
+            <p>Conductor profesional con más de 20 años de experiencia</p>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy Juan Pérez, camionero profesional desde hace más de dos décadas. A lo largo de mi carrera he recorrido miles de kilómetros transportando mercancías por todo el país y gran parte de Europa. Mi compromiso es la puntualidad y la seguridad de cada carga.</p>
+        <ul>
+            <li><strong>Experiencia:</strong> 20 años en el sector</li>
+            <li><strong>Ámbitos de trabajo:</strong> nacional e internacional</li>
+            <li><strong>Tipos de carga:</strong> general, refrigerada y especializada</li>
+        </ul>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Transporte nacional</li>
+            <li>Transporte internacional</li>
+            <li>Cargas especiales</li>
+            <li>Entregas puerta a puerta</li>
+        </ul>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-grid">
+            <img src="https://via.placeholder.com/600x400?text=Camion+1" alt="Camión 1">
+            <img src="https://via.placeholder.com/600x400?text=En+Ruta" alt="En ruta">
+            <img src="https://via.placeholder.com/600x400?text=Entrega" alt="Entrega">
+            <img src="https://via.placeholder.com/600x400?text=Carretera" alt="Carretera">
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <label>Nombre
+                <input type="text" name="nombre" required>
+            </label>
+            <label>Email
+                <input type="email" name="email" required>
+            </label>
+            <label>Mensaje
+                <textarea name="mensaje" rows="4" required></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="info-contacto">
+            <p><strong>Teléfono:</strong> <a href="tel:+34123456789">+34 123 456 789</a></p>
+            <p><strong>Email:</strong> <a href="mailto:juanperez@ejemplo.com">juanperez@ejemplo.com</a></p>
+            <p><strong>Ubicación:</strong> <a href="https://www.google.com/maps" target="_blank" rel="noopener">Ver en Google Maps</a></p>
+            <div class="redes">
+                <a href="#" aria-label="Facebook">🔗</a>
+                <a href="#" aria-label="Twitter">🔗</a>
+                <a href="#" aria-label="Instagram">🔗</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Juan Pérez - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
